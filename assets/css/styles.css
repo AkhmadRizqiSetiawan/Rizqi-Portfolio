@@ -1,6 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
@@ -259,6 +258,7 @@ img{
     grid-template-columns: .5fr 3fr;
     padding-top: 3.5rem;
     align-items: center;
+    justify-content: center;
 }
 
 .home__social{
@@ -1200,6 +1200,9 @@ img{
     .main,
     .footer__container{
         padding: 0;
+    }
+    .home__content{
+        padding-top: 0;
     }
     .home__blob{
         width: 320px;
